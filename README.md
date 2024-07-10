@@ -37,8 +37,7 @@ To run the StockHub Inventory Management System locally, follow these steps:
 
 Start the PHP development server:
 
-bash
-Copy code
+
 php -S localhost:8000
 
 
@@ -53,31 +52,34 @@ Username: [Your admin username]
 Password: [Your admin password]
 Folder Structure
 perl
-Copy code
-stockhub/
-├── database/
-│ ├── connection.php # Database connection setup
-│ ├── show-products.php # Script to fetch all products
-│ ├── add-product.php # Script to add a new product
-│ ├── delete-product.php # Script to delete a product
-│ ├── show-users.php # Script to fetch all users
-│ ├── add-user.php # Script to add a new user
-│ ├── delete-user.php # Script to delete a user
-│ └── update-user.php # Script to update user information
+database/
 
-├── css/
-│ └── dashboard.css # Stylesheet for dashboard
+connection.php: Database connection setup
+show-products.php: Script to fetch all products
+add-product.php: Script to add a new product
+delete-product.php: Script to delete a product
+show-users.php: Script to fetch all users
+add-user.php: Script to add a new user
+delete-user.php: Script to delete a user
+update-user.php: Script to update user information
+css/
 
-├── js/
-│ └── script.js # JavaScript functions
+dashboard.css: Stylesheet for dashboard
+js/
 
-├── partials/
-│ ├── app-sidebar.php # Sidebar navigation
-│ └── app-topnav.php # Top navigation bar
+script.js: JavaScript functions
+partials/
 
-├── index.php # Login page
-├── dashboard.php # Main dashboard page
-├── product-add.php # Page to add new products
-├── product-list.php # Page to list all products
-├── user-add.php # Page to add new users
-└── README.md       
+app-sidebar.php: Sidebar navigation
+app-topnav.php: Top navigation bar
+index.php: Login page
+
+dashboard.php: Main dashboard page
+
+product-add.php: Page to add new products
+
+product-list.php: Page to list all products
+
+user-add.php: Page to add new users
+
+README.md: Readme file (you are here)
