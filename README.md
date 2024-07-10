@@ -37,6 +37,10 @@ To run the StockHub Inventory Management System locally, follow these steps:
 
 ##output ##Screenshots
 
+
+https://github.com/Satyam50/StockHub/assets/120093546/33297104-2f0a-454f-9374-a8a4931a5807
+
+
 ![Media Player 7_10_2024 3_19_31 PM](https://github.com/Satyam50/StockHub/assets/120093546/46ca6f17-afa9-4444-95c9-1ba6bce66862)
 ![Media Player 7_10_2024 3_19_37 PM](https://github.com/Satyam50/StockHub/assets/120093546/5f256a0f-f5f2-4d5e-b30b-a3616a35333d)
 ![Media Player 7_10_2024 3_19_43 PM](https://github.com/Satyam50/StockHub/assets/120093546/aa3f7ec7-9461-4e5e-a241-18e71ccb79b5)
