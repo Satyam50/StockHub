@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#dashboardmaincontainer {
+    display: flex;
+    height: 100vh; /* Ensure full height */
+}
+
+
+.dashboard_Sidebar {
+    width: 20%;
+    background: #323232;
+    height: 100%; /* Ensure sidebar fills height */
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 20px;
+}
+
+.dashboard_content_container {
+    width: 80%; /* Adjusted to fill remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+h3.dashboard_logo {
+    color: #f685a1;
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+.dashboard_sidebar_user {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    width: 100%; /* Full width */
+    margin-bottom: 20px;
+}
+
+.dashboard_sidebar_user img {
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #323232;
+    margin-right: 5px;
+}
+
+.dashboard_sidebar_user span {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 10px; /* Adjust for better alignment */
+}
+
+.dashboard_menu_lists {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove default list styles */
+    width: 100%; /* Ensure full width */
+}
+
+.dashboard_menu_lists li {
+    margin-top: 0px; /* Add space between list items */
+}
+
+.dashboard_menu_lists li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex; /* Use flex to align icon and text */
+    align-items: center;
+    padding: 10px 20px;
+     /* Add padding */
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.dashboard_menu_lists li a i {
+    margin-right: 10px;
+     /* Add space between icon and text */
+}
+
+.dashboard_menu_lists li a:hover {
+    background-color: #f685a1;
+    width: auto; 
+    height: auto;
+    /* Change color on hover */
+}
+
+.dashboard_topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f685a1;
+}
+
+.dashboard_topnav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*user and databse fetch speration*/
+
+body div.rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+body div.columns {
+    display: flex;
+    flex-direction: column;
+    padding: 15px; /* Optional: Adds some spacing inside columns */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Styles for the Create User form */
+.column5 .section_header {
+    background-color:  #f685a1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.column5 .useraddformcontainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column5 .useraddformcontainer form div {
+    margin-bottom: 15px;
+}
+
+.column5 .useraddformcontainer label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.column5 .useraddformcontainer input[type="text"],
+.column5 .useraddformcontainer input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.column5 .useraddformcontainer button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.column5 .useraddformcontainer button:hover {
+    background-color: #45a049;
+}
+
+.column5 .responsemessage p {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.responseMessage__success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.responseMessage__error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Styles for the List of Users section */
+.column7 .section_header {
+    background-color: #f685a1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.column7 .section_content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.column7 .section_content .users table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.column7 .section_content .users th,
+.column7 .section_content .users td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.column7 .section_content .users th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+h1.section_header {
+    font-size: 20px;
+}
+
+/* Styles for the List of Users table */
+.column7 .section_content .users table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.column7 .section_content .users th,
+.column7 .section_content .users td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.column7 .section_content .users th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.column7 .section_content .users tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.column7 .section_content .users tr:hover {
+    background-color: #f1f1f1;
+}
+

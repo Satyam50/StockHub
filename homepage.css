@@ -1,0 +1,393 @@
+
+div.header {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: right;
+    background: #f685a1;
+}
+
+div.headpagecontainer {
+    display: inline-block;
+    margin-right: 20px; /* Add margin to move the button away from the right edge */
+}
+
+div.header a {
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+div.header a:hover {
+    background-color: #fff;
+    color: #f685a1;
+    border-color: #f685a1;
+}
+
+
+div.banner {
+    background: url(bgg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.homepagecontainer{
+    width: 100%;
+    max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+    /* height: 70vh; */
+    /* margin-bottom: 10px; */
+}
+div.bannerheader p.pppp {
+    font-size: 50px;
+    color: #ef2155;
+    text-transform: uppercase;
+    margin: 0 0 0 0; /* Reduced margins */
+    line-height: 0.9; /* Adjust line height */
+}
+
+div.bannerheader h1{
+    font-size: 100px;
+    color: #ef2155;
+    text-transform: uppercase;
+    margin: 0 0 0 0; /* Reduced margins */
+    line-height: 0.9; /* Adjust line height */
+    /* line-height: 100%; */
+}
+div.bannerheader {
+    font-size: 20px;
+    color: #ef2155;
+    text-transform: uppercase;
+    margin: 0 0 10px 50px; /* Reduced margins */
+    line-height: 0.9; /* Adjust line height */
+}
+
+div p.bannertagline{
+    font-size: 25px;
+    margin: 0 50px 10px 50px; /* Adjusted margins */
+    text-align: justify; /* Justify the text content */
+    line-height: 0.9; /* Adjust line height */
+}
+div.bannericons{
+    margin-top: 50px;
+
+}
+
+/* div.bannericons a{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 50px;
+    margin-left:40px;
+    padding: 25px;
+    background:rgba(0, 0, 0, 0.5);
+    color: #868485;
+    border-radius: 100%;
+    width: 50px;
+    height:50px; 
+    display: inline-block;
+} */
+div.bannericons a {
+    display: inline-block; /* Ensure the element is inline-block */
+    text-align: center;
+    font-size: 50px; /* Adjust font size to fit within the circle */
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #868485;
+    border-radius: 50%; /* Ensures the shape is a perfect circle */
+    line-height: 100px; /* Centers text vertically */
+    vertical-align: middle;
+}
+
+div.bannericons a:first-child{
+    margin-left: 50px;
+}
+/* div.bannericons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background: #f685a1;
+    transition: 0.5s all;
+} */
+div.bannericons a:hover {
+    background: rgba(0, 0, 0, 0.7); /* Optional: Darken background on hover for effect */
+   
+    font-size: 25px;
+    transition: 0.5s all;
+    color: #ffffff; /* Optional: Change text color on hover for effect */
+}
+
+
+div.homepagefeatures{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+div.homepagefeature{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+div.homepagefeature span.featureicon{
+   height:75px;
+   width: 75px;
+   display: inline-block; /* Ensure the element is inline-block */
+   text-align: center;
+   vertical-align: middle;
+   border-radius: 50%; /* Ensures the shape is a perfect circle */
+   line-height: 75px; /* Centers text vertically */
+   font-size: 30px; 
+   background: #f685a1;
+   color: #fff;
+
+}
+
+div.homepagefeature h3.featuretitle{
+margin-bottom: 20px;
+}
+
+div.homepagefeature p.featuredescription{
+color: #848484;
+}
+
+
+
+
+.homepagefeature {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for transform and box-shadow */
+}
+
+.homepagefeature:hover {
+    transform: translateY(-5px); /* Move element up slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+}
+
+.homepagefeature .featureicon {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.homepagefeature .featuretitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.homepagefeature:hover .featuretitle {
+    color: #f685a2; /* Change text color on hover */
+}
+
+.homepagefeature .featuredescription {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.homepagefeature:hover .featuredescription {
+    color: #888; /* Change text color on hover */
+}
+
+
+
+
+
+/* div.homepagenotifiedcontainer{
+    display: flex;
+    flex-direction: row;
+    background: #e3e3e3;
+}
+div.homepagenotified{
+    background: #e3e3e3;
+}
+div.emailform{
+    margin-right: 500px;
+    text-align: justify;
+} */
+
+div.homepagenotified {
+    background: #e3e3e3;
+    padding: 20px 0; /* Add some padding for spacing */
+}
+
+div.homepagecontainer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div.homepagenotifiedcontainer {
+    display: flex;
+    flex-direction: row;
+    background: #e3e3e3;
+    gap: 20px; /* Add gap between email form and video */
+    align-items: flex-start; /* Align items at the top */
+}
+
+div.emailform {
+    flex: 1; /* Take up available space */
+    text-align: justify;
+    margin-right: 50px;
+}
+
+div.emailform h3 {
+    margin: 0 0 10px 0; /* Adjust margins */
+}
+
+div.emailform p {
+    margin: 0 0 20px 0; /* Adjust margins */
+    text-align: justify;
+    color: #848484;
+    font-size: 14px;
+}
+
+div.emailform form {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add gap between input and button */
+}
+
+div.emailform input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1; /* Ensure the input takes up available space */
+}
+
+div.emailform button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f685a1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap; /* Prevent button text from wrapping */
+}
+
+div.emailform button:hover {
+    background-color: #d40339;
+}
+
+div.video {
+    flex: 1; /* Take up available space */
+    max-width: 500px;
+    margin-left: 20px; /* Add space between the form and the video */
+}
+div.video iframe{
+    width: 400px;
+    height: 250px;
+}
+/* div.homepageconnect{
+    text-align: center;
+}
+div.homepageconnect div.footericons{
+    
+} */
+ 
+div.homepageconnect {
+    
+    text-align: center;
+    padding: 20px 0;
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+div.homepageconnect h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+div.homepageconnect p {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    color: #848484;
+}
+
+div.footericons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; /* Optional: Add margin-top for spacing between text and icons */
+}
+
+div.footericons a {
+    display: inline-flex; /* Use inline-flex for better alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 5px; /* Adjust padding to make the icons smaller */
+    background: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    width: 20px; /* Adjust width to make the icons smaller */
+    height: 20px; /* Adjust height to make the icons smaller */
+    font-size: 16px; /* Adjust font size to make the icons smaller */
+}
+
+div.footericons a:hover {
+    background: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+
+
+
+
+div.homepagelastfooter{
+    background: #e3e3e3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.homepagelastfooter a{
+color: #848484;
+margin-left: 30px;
+
+}
+
+div.homepagelastfooter div.homepagecontainer {
+    /* background: #f3f3f3; Optional background color for the footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+div.homepagelastfooter div.homepagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div.homepagelastfooter div.homepagecontainer a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Default text color */
+}
+
+div.homepagelastfooter div.homepagecontainer a:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #f685a2; /* Background color on hover */
+    transition:background-color 0.7s ease;
+    transition:color 0.5s ease;  
+    border-radius: 4px; /* Optional: Add rounded corners on hover */
+}

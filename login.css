@@ -1,0 +1,246 @@
+body#loginBody {
+  background: url(bgg1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.loginHeader {
+  text-align: center;
+}
+
+div.loginHeader {
+  margin-bottom: 60px;
+}
+
+/* div.loginHeader h1 {
+    font-size: 60px;
+    color: #f685a2;
+    margin: 0px;
+    padding: 0px;
+    
+} */
+div.loginHeader h1 {
+  font-size: 60px;
+  color: #f685a2;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ff0041, #fca3cc);
+  -webkit-background-clip: text; /* For Safari and older versions of Chrome */
+  -moz-background-clip: text; /* For older versions of Firefox */
+  -ms-background-clip: text; /* For Internet Explorer 9 */
+  background-clip: text; /* Standard property */
+  color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+div.loginHeader h1:hover {
+  transform: scale(1.05);
+}
+
+div.loginHeader p {
+  color: #e64833;
+  font-size: 50px;
+  margin: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+div.buttonset {
+  margin-top: 40px;
+}
+
+/* div.buttonset button{
+    font-size: 30px;
+    padding: 10px 20px;
+    background: #f685a2;
+    border: none;
+    color: #fff;
+} */
+div.buttonset button {
+  font-size: 30px;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #f685a2, #fca3cc);
+  border: none;
+  border-radius: 8px;
+  /* Rounded corners */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  /* Smooth transition */
+}
+
+div.buttonset button:hover {
+  background: linear-gradient(45deg, #fca3cc, #f685a2);
+  /* Gradient direction change on hover */
+  transform: scale(1.05);
+  /* Slightly larger on hover */
+}
+
+div.buttonset button:active {
+  transform: scale(1);
+  /* Reset scale on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Reduced shadow on click */
+}
+
+div.loginHeader p:after {
+  content: "";
+  display: block;
+  height: 5px;
+  background: #f685a2;
+  /* width:80%; */
+  margin: 0 auto;
+}
+
+/* div.loginBody form{
+    margin: 0 auto;
+    width: 400px;
+    background:rgba(0,0,0,.5);
+    padding:50px;
+    border:2px solid #fff;
+    border-radius:8px
+} */
+
+div.loginBody form {
+  margin: 0 auto;
+  width: 400px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(34, 34, 34, 0.6)
+  );
+  /* Gradient background */
+  padding: 50px;
+  border: 2px solid #f685a2;
+  /* Changed border color to match your theme */
+  border-radius: 15px;
+  /* Increased border radius for a softer look */
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Inner and outer shadow */
+  backdrop-filter: blur(5px);
+  /* Blur effect for a frosted glass look */
+  color: #fff;
+  /* Ensure text is readable */
+}
+
+div.loginInputContainer {
+  margin-top: 30px;
+}
+
+/* div.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size:20px;
+    color:#fff;
+} */
+div.loginInputContainer label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000, /* Shadow */ 0 0 5px #ff7e5f,
+    /* Outer Glow */ 0 0 10px #feb47b;
+  /* Outer Glow */
+}
+
+div.loginInputContainer input {
+  height: 30px;
+  width: 100%;
+  border: 2px solid #d40339;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+}
+
+div#errorMessage {
+  background: #fff;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  padding: 11px;
+
+}
+
+
+.dashboard_content_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust as needed */
+  /* background-color: #f2f2f2; Light background color */
+  padding: 36px; /* Add padding for spacing */
+  /* Prevent vertical scroll */
+}
+
+.appform {
+  background-color: #ffffff; /* White background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  width: 350px; /* Adjust width as needed */
+}
+
+.appform div {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.appform label {
+  position: absolute;
+  top: -7px; /* Position above input */
+  left: 10px;
+  background-color: #ffffff; /* White background for label */
+  padding: 0 5px; /* Padding for label */
+  font-size: 14px; /* Font size */
+  color: #999; /* Light gray color */
+  transition: top 0.3s, font-size 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.appform input[type="text"], .appform input[type="password"], .appform input[type="email"] {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.appform input[type="text"]:focus, .appform input[type="password"]:focus, .appform input[type="email"]:focus {
+  border-color: #26c6da; /* Focus border color */
+}
+
+.appform input[type="text"]:focus + label, .appform input[type="password"]:focus + label, .appform input[type="email"]:focus + label,
+.appform input[type="text"]:not(:placeholder-shown) + label, .appform input[type="password"]:not(:placeholder-shown) + label, .appform input[type="email"]:not(:placeholder-shown) + label {
+  top: -10px; /* Move label up on focus or input */
+  font-size: 12px; /* Smaller font size */
+  color: #26c6da; /* Highlight color */
+}
+
+.appform button {
+  display: block; /* Display button as block */
+  width: 100%; /* Full width button */
+  padding: 12px;
+  background-color: #26c6da; /* Button background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  color: #fff; /* White text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  margin-top: 20px; /* Margin top for spacing */
+}
+
+.appform button:hover {
+  background-color: #00acc1; /* Hover background color */
+  transform: translateY(-2px); /* Move up on hover */
+}
