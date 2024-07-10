@@ -55,30 +55,29 @@ Folder Structure
 perl
 Copy code
 stockhub/
-│
 ├── database/
-│   ├── connection.php       # Database connection setup
-│   ├── show-products.php    # Script to fetch all products
-│   ├── add-product.php      # Script to add a new product
-│   ├── delete-product.php   # Script to delete a product
-│   ├── show-users.php       # Script to fetch all users
-│   ├── add-user.php         # Script to add a new user
-│   ├── delete-user.php      # Script to delete a user
-│   └── update-user.php      # Script to update user information
-│
+│ ├── connection.php # Database connection setup
+│ ├── show-products.php # Script to fetch all products
+│ ├── add-product.php # Script to add a new product
+│ ├── delete-product.php # Script to delete a product
+│ ├── show-users.php # Script to fetch all users
+│ ├── add-user.php # Script to add a new user
+│ ├── delete-user.php # Script to delete a user
+│ └── update-user.php # Script to update user information
+
 ├── css/
-│   └── dashboard.css        # Stylesheet for dashboard
-│
+│ └── dashboard.css # Stylesheet for dashboard
+
 ├── js/
-│   └── script.js            # JavaScript functions
-│
+│ └── script.js # JavaScript functions
+
 ├── partials/
-│   ├── app-sidebar.php      # Sidebar navigation
-│   └── app-topnav.php       # Top navigation bar
-│
-├── index.php                # Login page
-├── dashboard.php            # Main dashboard page
-├── product-add.php          # Page to add new products
-├── product-list.php         # Page to list all products
-├── user-add.php             # Page to add new users
-└── README.md         
+│ ├── app-sidebar.php # Sidebar navigation
+│ └── app-topnav.php # Top navigation bar
+
+├── index.php # Login page
+├── dashboard.php # Main dashboard page
+├── product-add.php # Page to add new products
+├── product-list.php # Page to list all products
+├── user-add.php # Page to add new users
+└── README.md       
