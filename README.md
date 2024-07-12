@@ -35,7 +35,8 @@ To run the StockHub Inventory Management System locally, follow these steps:
    cd stockhub
 
 
-## output ## Screenshots
+## output
+## Screenshots
 
 
 https://github.com/Satyam50/StockHub/assets/120093546/dbf70933-5866-447d-9984-d3aca51d31c9
